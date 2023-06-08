@@ -1,5 +1,5 @@
 # Szenario
-![LS 10.1 Titelbild](LS10_1_Titelbild.jpg)
+![LS 10.1 Titelbild](Grafiken/LS10_1_Titelbild.jpg)
 
 Für eine Firma soll eine Active Directory Umgebung neu konzipiert und implementiert 
 werden. Die Firma besteht aus mehreren Standorten. Den Benutzern soll ein eigener 
@@ -30,5 +30,5 @@ unberechtigten internen Zugriff.
 - [Linked in Learning Windows Server 2019: DHCP and DNS](https://www.linkedin.com/learning/windows-server-2019-dhcp-and-dns/dhcp-and-dns-in-windows-server-2019?u=68522354)
 
 ## Installation und Konfiguration der Active Directory-Domänendienste
-![Gesamtstruktur](LS10_1_1_Gesamtstruktur.png)
+![Gesamtstruktur](Grafiken/LS10_1_1_Gesamtstruktur.png)
 
