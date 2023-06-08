@@ -32,3 +32,4 @@ unberechtigten internen Zugriff.
 ## Installation und Konfiguration der Active Directory-Domänendienste
 ![Gesamtstruktur](Grafiken/LS10_1_1_Gesamtstruktur.png)
 
+[A1_0 Zugriff auf die Cloud Infrastruktur](A1_0 Zugriff auf die Cloud Infrastruktur)
