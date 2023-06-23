@@ -29,7 +29,4 @@ bedingungen, testen und optimieren die Automatisierung.
  
 Die Schülerinnen und Schüler reflektieren ihre Lösung und beurteilen sie hinsichtlich der 
 Kundenanforderungen.
-
-Hier war ein Fehler.
-
 ---
