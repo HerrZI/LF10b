@@ -28,6 +28,8 @@ Sie automatisieren Administrationsprozesse in Abhängigkeit kundenspezifischer R
 bedingungen, testen und optimieren die Automatisierung. 
  
 Die Schülerinnen und Schüler reflektieren ihre Lösung und beurteilen sie hinsichtlich der 
-Kundenanforderungen. 
+Kundenanforderungen.
+
+Hier war ein Fehler.
 
 ---
