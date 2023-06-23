@@ -1,3 +1,4 @@
+<!--LF10RLP-->
 # LF10b
 Auszug aus dem Rahmenlehrplan *)
 
