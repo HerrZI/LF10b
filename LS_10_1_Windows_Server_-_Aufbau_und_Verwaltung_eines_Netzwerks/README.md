@@ -1,14 +1,14 @@
-<!--LS10.1-Szenario-->
+<!--LS10_1-Szenario-->
 # Szenario
 
 | Für eine Firma soll eine Active Directory Umgebung neu konzipiert und implementiert werden. Die Firma besteht aus mehreren Standorten. Den Benutzern soll ein eigener Arbeitsbereich zur Verfügung gestellt werden. Die Computer- und Benutzerkonfiguration soll zum aller größten Teil automatisch erfolgen. Die Benutzer möchten beim Wechsel ihrer Arbeitsstation ihre eigene Arbeitsumgebung beibehalten. Die Firma legt großen Wert auf weitere Skalierbarkeit und Absicherung der Daten vor unberechtigten internen Zugriff. | ![LS 10.1 Titelbild](Grafiken/LS10_1_Titelbild.jpg) |
 
-<!--LS10.1-Szenario-->
+<!--LS10_1-Szenario-->
 
-<!--LS10_1_Materialien-->
+<!--LS10_1-Materialien-->
 ## Materialien
 ![Materialien](Grafiken/DALL_E_2023-08-11_14.29.08_-_Bücher_-_200x100.jpg)
-<!--LS10_1_Materialien-->
+<!--LS10_1-Materialien-->
 
 ## Material Unterricht
 - [HERDT|Campus: Windows Server 2019 Aufbau und Verwaltung](https://herdt-campus.com/product/W2019AVN)
