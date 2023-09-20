@@ -5,6 +5,11 @@
 
 <!--LS10.1-Szenario-->
 
+<!--LS10.1-Materialien-->
+## Materialien
+![Materialien](Grafiken/DALL_E_2023-08-11_14.29.08_-_Bücher_-_200x100.jpg)
+<!--LS10.1-Materialien-->
+
 ## Material Unterricht
 - [HERDT|Campus: Windows Server 2019 Aufbau und Verwaltung](https://herdt-campus.com/product/W2019AVN)
 - [Rheinwerk : Windows Server 2012 R2 - Das umfassende Handbuch](https://openbook.rheinwerk-verlag.de/windows_server_2012r2/)
