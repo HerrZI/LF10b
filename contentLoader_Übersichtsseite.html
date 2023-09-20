@@ -1,0 +1,63 @@
+<html>
+  <head>    
+    <title>Test</title>
+  </head>
+  <body>
+
+	<p id="LS10_1-Szenario"></p>
+	<p id="LS10_1-Materialien"></p>	
+	
+    <script type="text/javascript">
+        // <![CDATA[
+        // Diese variablen müssen entsprechned angepasst bzw. erweitert werden
+        // var tagid ist die tagid des <p></p> Elements der HTML Seite;
+        // var commentTag Kommentar Tag im Markdown
+        let textElements = [    {tagid: "LS10_1-Szenario",      commentTag: "<!--LS10_1-Szenario-->"},
+                                {tagid: "LS10_1-Materialien",   commentTag: "<!--LS10_1-Materialien-->"}
+                            ];
+
+        // Basis URL der HTML Seite
+        var baseurl = "https://herrzi.github.io"
+        // Name der HTML Seite
+        var htmlpage = "/LF10b/LS_10_1_Windows_Server_-_Aufbau_und_Verwaltung_eines_Netzwerks/"
+
+        window.onload = function() {
+            console.log("All loaded");
+
+            fetch(baseurl + htmlpage + "?now=" + Date.now())
+                .then((response) => response.text())
+                .then((html) => {
+                    textElements.forEach(fillTextElement, html);                    
+                    console.log("All elements added.");
+                })
+                .catch((error) => {
+                    console.warn(error);
+                });        
+        }
+
+        function fillTextElement(actualElement, thisValue) {
+            html = this;
+            //console.log(html);
+            //console.log(actualElement['commentTag']);
+            //console.log(actualElement['tagid']);
+            
+            html = html.replaceAll("src=\"", "src=\"" + baseurl)
+            html = html.split(actualElement['commentTag']);
+            document.getElementById(actualElement['tagid']).innerHTML = html[1];
+
+            var link = document.createElement('link');
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            document.getElementsByTagName("head")[0].appendChild(link);
+            
+        }
+
+        // ]]>
+    </script>	
+
+  </body>
+</html>
+
+
+
+

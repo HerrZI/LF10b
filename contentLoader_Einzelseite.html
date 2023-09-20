@@ -1,0 +1,41 @@
+<html><head><title>Test</title></head><body>
+<!-- Content Loader Anzuapssen ist in der folgenden Zeile die ID und die Variablen im Java Script Block -->
+<p id="LS10_1-Szenario"></p>
+
+<script type="text/javascript">
+    // <![CDATA[
+    // Diese variablen müssen entsprechned angepasst wurden
+
+    // Tag ID des p Elementes (wie in Zeile 3)
+    var tagid = "LS10_1-Szenario";
+    // Kommentar Tag im Markdown
+    var commentTag = "<!--LS10_1-Szenario-->";
+    // Basis URL 
+    var baseurl = "https://herrzi.github.io"
+    // Name der HTML Seite
+    var htmlpage = "/LF10b/LS_10_1_Windows_Server_-_Aufbau_und_Verwaltung_eines_Netzwerks/"
+
+    window.onload = function() {
+        console.log("All loaded");
+
+        fetch(baseurl + htmlpage + "?now=" + Date.now())
+            .then((response) => response.text())
+            .then((html) => {                
+                html = html.replaceAll("src=\"", "src=\"" + baseurl)
+                html = html.split(commentTag);
+                document.getElementById(tagid).innerHTML = html[1];
+
+                var link = document.createElement('link');
+                link.setAttribute("rel", "stylesheet");
+                link.setAttribute("type", "text/css");                
+                document.getElementsByTagName("head")[0].appendChild(link);
+
+            })
+            .catch((error) => {
+                console.warn(error);
+            });
+
+    }
+    // ]]>
+</script>
+</body></html>
