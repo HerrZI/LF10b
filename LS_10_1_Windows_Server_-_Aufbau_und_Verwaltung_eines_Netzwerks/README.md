@@ -29,7 +29,10 @@
 
 - [Linked in Learning Windows Server 2019: DHCP and DNS](https://www.linkedin.com/learning/windows-server-2019-dhcp-and-dns/dhcp-and-dns-in-windows-server-2019?u=68522354)
 
+<!--LS10_1-InstUndKonfigAD-->
 ## Installation und Konfiguration der Active Directory-Domänendienste
 ![Gesamtstruktur](Grafiken/LS10_1_1_Gesamtstruktur.png)
+
+<!--LS10_1-InstUndKonfigAD-->
 
 [A1_0 Zugriff auf die Cloud Infrastruktur](A1_0_Zugriff_auf_die_Cloud_Infrastruktur)
